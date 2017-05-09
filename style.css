@@ -9,17 +9,20 @@ div{
 	right: 0px;
 }
 
-#page{
+#page, body.exp{
 	background: #BBB;
 	background: -o-linear-gradient(#BBB,#F3F3F3);
 	background: -webkit-linear-gradient(#BBB,#F3F3F3);
 	background: -moz-linear-gradient(#BBB,#F3F3F3);
 	background: linear-gradient(#BBB,#F3F3F3);
+	font-family: Calibri, Arial;
+	text-align: center;
+}
+
+#page{
 	position: absolute;
 	top: 330px;
 	bottom: 0px;
-	font-family: Calibri, Arial;
-	text-align: center;
 	overflow: auto;
 }
 
@@ -66,4 +69,8 @@ a:hover{
 
 #page:last-child{
 	padding-bottom: 2em;
+}
+
+ul{
+	list-style: none;
 }
