@@ -1,0 +1,69 @@
+body{
+	margin: 0px;
+	padding: 0px;
+}
+
+div{
+	position: relative;
+	left: 0px;
+	right: 0px;
+}
+
+#page{
+	background: #BBB;
+	background: -o-linear-gradient(#BBB,#F3F3F3);
+	background: -webkit-linear-gradient(#BBB,#F3F3F3);
+	background: -moz-linear-gradient(#BBB,#F3F3F3);
+	background: linear-gradient(#BBB,#F3F3F3);
+	position: absolute;
+	top: 330px;
+	bottom: 0px;
+	font-family: Calibri, Arial;
+	text-align: center;
+	overflow: auto;
+}
+
+p{
+	font-size: 110%;
+}
+
+.header{
+	height: 40px;
+}
+
+.red{
+	background: red;
+	z-index: 1;
+}
+
+.blue{
+	background: blue;
+}
+
+.yellow{
+	background: yellow;
+}
+
+.comicsans{
+	font-family: comic sans ms;
+	padding: 2em;
+	font-size: 200%;
+	text-align: center;
+	color: red;
+}
+
+a{
+	text-decoration: none;
+	color: blue;
+	position: relative;
+	transition: font-size .5s;
+}
+
+a:hover{
+	color: black;
+	font-size: 130%;
+}
+
+#page:last-child{
+	padding-bottom: 2em;
+}
