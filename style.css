@@ -1,6 +1,19 @@
 body{
 	margin: 0px;
 	padding: 0px;
+	font-family: Calibri, Arial;
+}
+
+a{
+	text-decoration: none;
+	color: blue;
+	position: relative;
+	transition: font-size .5s;
+}
+
+a:hover{
+	color: black;
+	font-size: 130%;
 }
 
 div{
@@ -9,17 +22,13 @@ div{
 	right: 0px;
 }
 
-#page, body.exp{
+#page{
+	text-align: center;
 	background: #BBB;
 	background: -o-linear-gradient(#BBB,#F3F3F3);
 	background: -webkit-linear-gradient(#BBB,#F3F3F3);
 	background: -moz-linear-gradient(#BBB,#F3F3F3);
 	background: linear-gradient(#BBB,#F3F3F3);
-	font-family: Calibri, Arial;
-	text-align: center;
-}
-
-#page{
 	position: absolute;
 	top: 290px;
 	bottom: 0px;
@@ -54,18 +63,6 @@ p{
 	font-size: 200%;
 	text-align: center;
 	color: red;
-}
-
-a{
-	text-decoration: none;
-	color: blue;
-	position: relative;
-	transition: font-size .5s;
-}
-
-a:hover{
-	color: black;
-	font-size: 130%;
 }
 
 #page:last-child{
