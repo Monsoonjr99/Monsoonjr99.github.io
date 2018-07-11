@@ -1,7 +1,11 @@
 body{
-	margin: 0px;
-	padding: 0px;
 	font-family: Calibri, Arial;
+	text-align: center;
+	background: #BBB;
+	background: -o-linear-gradient(#BBB,#F3F3F3);
+	background: -webkit-linear-gradient(#BBB,#F3F3F3);
+	background: -moz-linear-gradient(#BBB,#F3F3F3);
+	background: linear-gradient(#BBB,#F3F3F3);
 }
 
 a{
@@ -27,57 +31,16 @@ a:hover:after{
 	transform: scaleX(1);
 }
 
-div{
-	position: relative;
-	left: 0px;
-	right: 0px;
-}
-
-#page{
-	text-align: center;
-	background: #BBB;
-	background: -o-linear-gradient(#BBB,#F3F3F3);
-	background: -webkit-linear-gradient(#BBB,#F3F3F3);
-	background: -moz-linear-gradient(#BBB,#F3F3F3);
-	background: linear-gradient(#BBB,#F3F3F3);
-	position: absolute;
-	top: 290px;
-	bottom: 0px;
-	overflow: auto;
-}
-
 p{
 	font-size: 110%;
-}
-
-.header{
-	height: 40px;
-}
-
-.red{
-	background: red;
-	z-index: 1;
-}
-
-.blue{
-	background: blue;
-	height: 20px;
-}
-
-.yellow{
-	background: yellow;
 }
 
 .comicsans{
 	font-family: comic sans ms;
 	padding: 2em;
-	font-size: 200%;
+	font-size: 250%;
 	text-align: center;
-	color: red;
-}
-
-#page:last-child{
-	padding-bottom: 2em;
+	color: #7F00FF;
 }
 
 ul{
