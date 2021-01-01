@@ -1,5 +1,5 @@
 body{
-	font-family: Calibri, Arial;
+	font-family: Verdana, Arial, Calibri;
 	text-align: center;
 	background: #BBB;
 	background: -o-linear-gradient(#BBB,#F3F3F3);
@@ -35,8 +35,8 @@ p{
 	font-size: 110%;
 }
 
-.comicsans{
-	font-family: comic sans ms;
+.header{
+	font-family: Verdana, sans-serif;
 	padding: 2em;
 	font-size: 250%;
 	text-align: center;
